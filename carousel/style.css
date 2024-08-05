@@ -1,5 +1,6 @@
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -17,7 +18,7 @@
 .carousel-inner {
   position: relative;
   min-width: 500px;
-  height: 900px;
+  height: 780px;
   overflow: hidden;
 }
 
@@ -35,4 +36,8 @@
 
 .active {
   display: block;
+}
+
+.navdots img {
+  width: 15px;
 }
