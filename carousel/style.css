@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+.carousel-outer {
+  min-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.carousel-inner {
+  position: relative;
+  min-width: 500px;
+  height: 900px;
+  overflow: hidden;
+}
+
+.carousel-image {
+  display: none;
+  width: 500px;
+  position: absolute;
+  bottom: 500;
+  left: 0;
+}
+
+.navigation-button {
+  width: 70px;
+}
+
+.active {
+  display: block;
+}

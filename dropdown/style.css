@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+img {
+  width: 100px;
+  margin: 5px;
+}
+
+#dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 100%;
+}
+
+.opaque {
+  opacity: 0%;
+}
